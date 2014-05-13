@@ -1,0 +1,131 @@
+/*
+ * CSS For the class template
+*/
+
+/* Fonts and all */
+/*@font-face {
+    font-family: 'Enriqueta'; a name to be used later
+    src: url('./fonts/enriqueta/Enriqueta-Regular.otf'); URL to font
+}
+*/
+
+@import url(http://fonts.googleapis.com/css?family=Junge);
+
+#pageFrame {
+    width:1220px;
+    padding:0;
+    font-family:Junge;
+}
+
+/* Table of Contents Section */
+.toc {
+    width:300px;
+    float: left;
+    margin-left:0px;
+    margin-right:0px;
+    padding:0px 0px 0px 0px;
+    font-family:Junge;
+}
+
+.toc li{
+    height:50px;
+    border:thin solid black;
+    padding-left:10px;
+    font-family: Junge;
+    cursor:pointer;
+}
+
+.toc li.selected{
+    height:35px;
+    border:thin solid black;
+    padding-left:10px;
+    padding-top:1.0em;
+    padding-bottom:0;
+    border-right: thin hidden black;
+    text-shadow:1px 1px #cccccc;
+}
+
+.toc li.unselected{
+    height:35px;
+    border:thin solid black;
+    padding-left:10px;
+    padding-top:1.0em;
+    padding-bottom:0;
+    background-color:gray;
+    text-shadow:none;
+}
+
+.toc ul{
+list-style-type: none;
+paddig: 0 0 0 0;
+margin-right:0;
+margin-top:0;
+margin-bottom:0;
+}
+
+/* Content */
+.content_area{
+    border-top:thin solid black;
+    margin-left:0px;
+    padding-left:20px;
+    float:right;
+    width:900px;
+
+}
+.content{
+    width:650px;
+    margin-left:50px;
+    height:1000px;
+}
+
+.unit{
+    display:none;
+    
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+    background-image:    -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+    background-image:     -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+    background-image:      -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+}
+
+/* Text Formatting in Content */
+.title{
+    font-family:Junge;
+    font-weight:bolder;
+    font-size:20pt;
+    margin-bottom:1.5em;
+    margin-top:0.5em;
+    text-align:center;
+}
+
+iframe.content{
+    border:none;
+    width:100%;
+    height:100%;
+}
+
+.external{
+     font-family:Junge;
+}
+
+ul.content_menu{
+    list-style-type:none;
+    border-bottom:thin solid blue;
+    
+}
+ul.content_menu li{
+    display:inline;
+    margin-right:100px;
+}
+
+.explanation{
+    background-color:#EFDFEF;
+}
+
+.homework{
+    background-color:#FEEEFE;
+}

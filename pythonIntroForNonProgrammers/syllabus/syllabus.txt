@@ -1,0 +1,39 @@
+Syllabus for python workshop. (10 hrs).
+Data: Civic data. Look at cityofchicago.org
+
+0. Get up and running with python.
+ - look for a Dr. Java kind of things for python. (look into an EC2 and create users)
+ - Explore your directories.
+ 
+1. "Hello World"
+ - Print
+ - Variables
+ - Concatenation
+
+2. Conditionals and logical operators (and,or, not,>,<,==)
+
+3. Lists:
+ - Accessing individual elements of a list
+ - Going through the elements of a list
+ - Mapping the elements of a list
+ - Strings "text" as lists of characters (letters)
+4. Opening a file
+ - Fileas as lists of lines.
+ - lines become lists of separated values with split.
+5. Math operators (+,-,/,*) and int/int versus float/float
+ - python as a calculator
+
+6. Reducing lists
+ - sum all elements of a list
+ - average of numbers
+7. dictionaries (cool way to store key-value pairs)
+8. functions
+ - as subroutines (perhaps something about variable scope?)
+ - with parameters. (Show the math concept)
+ - functions can call other functions (should be small... do ONE main thing, call functions for all other auxiliary stuff)
+9. Revisiting list comprehension
+ - mapping
+ - reducing
+ 
+
+ 
